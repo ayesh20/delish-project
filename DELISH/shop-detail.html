@@ -9,8 +9,9 @@
 	<link href="header&footer.css" rel="stylesheet" type="text/css">
   <link href="style.css" rel="stylesheet" type="text/css">
  <link rel="short icon" href="images/fav.png">
-  </head>
-  <body>
+  </head> 
+  <body> 
+
 <!-- Header Section Start -->
 <header>
   <div class="top-bar">
@@ -37,21 +38,21 @@
         <ul class="nav-links">
           <li><a href="index.html">HOME</a></li>
           <li class="dropdown">
-            <a href="#">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="gallery.html">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
           <li class="dropdown">
-            <a href="#">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="shop-detail.html">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
           <li class="dropdown">
-            <a href="#">SHOP <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="shop.html">SHOP <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
           <li class="dropdown">
-            <a href="#">BLOG <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="blog.html">BLOG <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>
-      <button class="book-btn">BOOK A TABLE <span class="arrow">&#8594;</span></button>
+      <button class="book-btn" onclick="window.location.href='reservation.html'">BOOK A TABLE <span class="arrow">&#8594;</span></button>
       <div class="hamburger">
         <span></span><span></span><span></span>
       </div>
@@ -60,24 +61,70 @@
       
 </header>
 <!-- Header Section End -->
-
-<!-- Hero Section Start -->
-<section class="hero-chef" style="background: url('assests/ourchef.jpg') center center/cover no-repeat;">
+<section class="hero-chef" style="background: url('assests/shopdetail12.jpg') center center/cover no-repeat;">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1>OUR CHEF</h1>
-    <p>HOME / OUR CHEF</p>
+    <h1>SHOP DETAILS</h1>
+    <p>HOME / SHOP DETAILS</p> 
   </div>
 </section>
 <!-- Hero Section End -->
 
-<!-- contact Section Start -->
+<!-- shop detail page section start -->
+<section class="product-detail-section">
+  <div class="product-detail-container">
+    <!-- Product Image -->
+    <div class="product-image-wrapper">
+      <img src="assests/shopdetail.jpg" alt="Grilled Lemon Herb Chicken">
+      <span class="product-badge">SALE</span>
+    </div>
+    <!-- Product Info -->
+    <div class="product-info">
+      <h1 class="product-title">Grilled Lemon Herb Chicken</h1>
+      <div class="product-rating">
+        <span class="stars">
+          ★★★★★
+        </span>
+        <span class="review-link">(1 customer review)</span>
+      </div>
+      <div class="product-price">$260.00 - $360.00</div>
+      <div class="product-short-desc">
+        Eget tech odio cum habitant egestas convallis turpis phasellus, ante parturient donec dis primis nam faucibus augue malesuada venenatis
+      </div>
+      <form class="product-cart-form">
+        <div class="quantity-wrapper">
+          <button type="button" class="qty-btn">-</button>
+          <input type="number" value="1" min="1">
+          <button type="button" class="qty-btn">+</button>
+        </div>
+        <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+      </form>
+      <div class="product-meta">
+        <div><b>SKU:</b> 17</div>
+        <div><b>Categories:</b> Light Bulb, Table</div>
+        <div><b>Tags:</b> Furniture, Textured</div>
+      </div>
+    </div>
+  </div>
+  <!-- Tabs -->
+  <div class="product-tabs">
+    <button class="tab active">DESCRIPTION</button>
+    <button class="tab">ADDITIONAL INFORMATION</button>
+    <button class="tab">REVIEW [03]</button>
+  </div>
+  <div class="tab-content">
+    <p>
+      Credibly negotiate emerging markets whereas clicks-and-mortar intellectual capital. Compellingly whiteboard client-centric sources across platform schemas. Distinctively develop future-proof outsourcing without multimedia based portals. Progressively coordinate generation architectures for collaborative solutions. Professionally restore backward-compatible quality vectors before customer directed markets. Holisticly restore technically sound internal or "organic" sources before client-centered human capital whereas holistic initiatives for prospective infomediaries.
+    </p>
+    <p>
+      Seamlessly target fully tested infrastructures whereas just in time process improvements. Dynamically exploit team driven functionalities via a rich global kind. Integer mollisly synthesize just in time technology rather than inexpensive strategic theme areas.
+    </p>
+  </div>
+</section>
+<!-- shop detail page section end -->
 
 
 
-<!-- contact Section End -->
-
-<br>
 <script src="js/main.js"></script>
 
 <!-- before footer Section Start -->
@@ -115,11 +162,11 @@
     <div class="footer-col">
       <h4>LINKS</h4>
       <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Meet our team</a></li>
-        <li><a href="#">Case stories</a></li>
-        <li><a href="#">Latest News</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="team-details.html">Meet our team</a></li>
+        <li><a href="blog-details.html">Case stories</a></li>
+        <li><a href="blog.html">Latest News</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
     <div class="footer-col">

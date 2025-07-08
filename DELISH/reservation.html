@@ -37,21 +37,21 @@
         <ul class="nav-links">
           <li><a href="index.html">HOME</a></li>
           <li class="dropdown">
-            <a href="#">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="gallery.html">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
           <li class="dropdown">
-            <a href="#">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="shop-detail.html">PAGES <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
           <li class="dropdown">
-            <a href="#">SHOP <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <a href="shop.html">SHOP <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
           <li class="dropdown">
             <a href="blog.html">BLOG <span><i class="fa-solid fa-chevron-down"></i></span></a>
           </li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>
-      <button class="book-btn">BOOK A TABLE <span class="arrow">&#8594;</span></button>
+      <button class="book-btn" onclick="window.location.href='reservation.html'">BOOK A TABLE  <span class="arrow">&#8594;</span></button>
       <div class="hamburger">
         <span></span><span></span><span></span>
       </div>
@@ -60,15 +60,87 @@
       
 </header>
 <!-- Header Section End -->
-<!-- Hero Section Start -->
-<section class="hero-chef" style="background: url('assests/ourchef.jpg') center center/cover no-repeat;">
+
+<!-- hero section start -->
+<section class="hero-chef" style="background: url('assests/reservation.jpg') center center/cover no-repeat;">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1>OUR CHEF</h1>
-    <p>HOME / OUR CHEF</p>
+    <h1>BOOK A TABLE</h1>
+    <p>HOME / BOOK A TABLE</p>
   </div>
 </section>
-<!-- Hero Section End -->
+<!-- hero section end -->
+
+<!--book a table section start -->
+<section class="reservation-section">
+  <form class="reservation-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label>NUMBER OF GUEST *</label>
+        <input type="text" placeholder="Person" required>
+      </div>
+      <div class="form-group">
+        <label>SELECT DATE *</label>
+        <input type="date" required>
+      </div>
+      <div class="form-group">
+        <label>SELECT TIME *</label>
+        <input type="time" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>YOUR NAME *</label>
+        <input type="text" placeholder="Person" required>
+      </div>
+      <div class="form-group">
+        <label>EMAIL ADDRESS *</label>
+        <input type="email" placeholder="Person" required>
+      </div>
+      <div class="form-group">
+        <label>PHONE NUMBER *</label>
+        <input type="tel" placeholder="Person" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group full-width">
+        <label>TYPE YOUR SPECIAL MESSAGE*</label>
+        <textarea placeholder="Tell us more about your special message"></textarea>
+      </div>
+    </div>
+    <div class="form-row center">
+      <button type="submit" class="reserve-btn">BOOK A TABLE &rarr;</button>
+    </div>
+  </form>
+</section>
+
+<!--book a table section end  -->
+
+<!-- table booking section 2 start -->
+<section class="info-section">
+  <div class="info-container">
+    <div class="info-images">
+      <img src="assests/table1.jpg" alt="Main" class="main-img">
+      <img src="assests/table2.jpg" alt="Overlay" class="overlay-img"> 
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <h4>OPENING HOURS</h4>
+        <p>Lunch: 11Pm - 3Pm<br>
+        Dinner: 7Pm - 11am (Last Order At 11:30PM)</p>
+      </div>
+      <div class="info-card">
+        <h4>VISIT HOUR RESTAURANT</h4>
+        <p>Eight avenue 487, NY<br>
+        T: +1 234-567-890<br>
+        M: hello@example.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- table booking section 2 end -->
+
+
 <script src="js/main.js"></script>
 
 <!-- before footer Section Start -->
@@ -106,11 +178,11 @@
     <div class="footer-col">
       <h4>LINKS</h4>
       <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Meet our team</a></li>
-        <li><a href="#">Case stories</a></li>
-        <li><a href="#">Latest News</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="team-details.html">Meet our team</a></li>
+        <li><a href="blog-details.html">Case stories</a></li>
+        <li><a href="blog.html">Latest News</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
     <div class="footer-col">

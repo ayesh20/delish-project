@@ -327,8 +327,8 @@ footer {
 .footer-social a {
   display: inline-block;
   margin-right: 0.7rem;
-  color: #fff;
-  background: #222;
+  color: #222;
+  background: #fff;
   width: 36px;
   height: 36px;
   border-radius: 50%;
